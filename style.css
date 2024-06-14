@@ -42,6 +42,7 @@ body {
     padding: 20px;
     margin: 100PX 50PX;
     border-radius: 5PX;
+    overflow: hidden;
 }
 .section {
     margin-top: 20px;
@@ -64,8 +65,7 @@ body {
     margin-top: 0px !important;
     font-weight: 700 !important;
     font-size: 14px;
-    display:flex;
-    flex-wrap: wrap;
+    overflow-wrap: break-word;
 }
 .section-content {
     display: flex;
