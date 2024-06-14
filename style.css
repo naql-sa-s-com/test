@@ -42,7 +42,7 @@ body {
     padding: 20px;
     margin: 100PX 50PX;
     border-radius: 5PX;
-    overflow: hidden;
+    overflow-wrap: break-word;
 }
 .section {
     margin-top: 20px;
