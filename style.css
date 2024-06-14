@@ -80,7 +80,7 @@ body {
 @media (max-width: 600px) {
     .back-button {
         position:absolute;
-        width: 60%;
+        width: 50%;
         
     }
 }
