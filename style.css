@@ -49,6 +49,7 @@ body {
     margin-bottom: 50px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 25PX;
+    overflow-wrap: break-word; /* تأكد من لف النص داخل العنصر */
 }
 .section-title {
     margin-bottom: 20px;
