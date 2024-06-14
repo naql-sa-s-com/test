@@ -43,6 +43,7 @@ body {
     margin: 100PX 50PX;
     border-radius: 5PX;
     overflow-wrap: break-word;
+    box-sizing: border-box; /* تضمين padding و border في حسابات العرض */
 }
 .section {
     margin-top: 20px;
@@ -68,6 +69,8 @@ body {
     font-size: 14px;
     overflow-wrap: break-word;
     word-break: break-all; /* قم بتقسيم الكلمات الكبيرة */
+    box-sizing: border-box; /* تضمين padding و border في حسابات العرض */
+    max-width: 100%; /* تأكد من عدم تجاوز النص عرض العنصر */
 }
 .section-content {
     display: flex;
